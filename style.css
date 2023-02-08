@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+/* Left Side */
+main .left-side{
+    position:absolute;
+    width: 100%;
+    height: 20vh;
+    background-color:  rgba(0, 0, 0, 0.26);
+}
+
+/* Right Side */
+main .right-side{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .right-side .content{
+    display: flex;
+}
+
+main .right-side .content img{
+    width: 15%;
+    border-radius: 50%;
+    border: 1.5px black solid;
+    position: fixed;
+    left: 17.25vw;
+    top: 32%; /* yukarı al */
+}
+
+main .right-side .content .content__text{
+    margin: 8%;
+}
+main .right-side .content .content__text h1{
+    margin-bottom: 3%;
+    color: rgba(46, 58, 89, 1);
+    text-align: center;
+    
+}
+main .right-side .content .content__text p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: rgba(46, 58, 89, 1);
+    text-align: center;
+}
+main .right-side .content .logos{
+  display: flex;    
+  padding-left: 19%;
+}
+main .right-side .content .logos a{
+    font-size:1.5rem;
+    color:rgba(46, 58, 89, 1) ;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+@media screen and (width: 540px) {
+        /* Left Side */
+        main .left-side{
+            position:absolute;
+            width: 100%;
+            min-height: 20vh;
+            background-color:  rgba(0, 0, 0, 0.26);
+        }
+    
+        /* Right Side */
+        main .right-side{
+            width: 100%;
+            min-height: 100vh;
+            background-color: rgba(0, 0, 0, 0.123);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main .right-side .content img{
+            width: 35%;
+            border-radius: 50%;
+            border: 1.5px black solid;
+            left: 35vw;
+            top: 3vh; /* yukarı al */
+        }
+        main .right-side .content .content__text h1{
+            font-size: 2rem;
+            padding-top: 18%;
+        }
+        main .right-side .content .content__text p{
+            font-size: 1.5rem;
+        }
+
+}
+
+@media screen and (min-width: 540px) {
+    /* Left Side */
+    main .left-side{
+        position:absolute;
+        width: 100%;
+        min-height: 20vh;
+        background-color:  rgba(0, 0, 0, 0.26);
+    }
+
+    /* Right Side */
+    main .right-side{
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .right-side .content img{
+        width: 30%;
+        border-radius: 50%;
+        border: 1.5px black solid;
+        left: 35vw;
+        top: 9vh; /* yukarı al */
+    }
+    main .right-side .content .content__text h1{
+        font-size: 2rem;
+        padding-top: 18%;
+    }
+    main .right-side .content .content__text p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Left Side */
+    main .left-side{
+        position:absolute;
+        width: 100%;
+        min-height: 15vh;
+        background-color:  rgba(0, 0, 0, 0.26);
+    }
+
+    /* Right Side */
+    main .right-side{
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .right-side .content img{
+        width: 30%;
+        border-radius: 50%;
+        border: 1.5px black solid;
+        left: 35vw;
+        top: 7vh; /* yukarı al */
+    }
+    main .right-side .content .content__text h1{
+        font-size: 2rem;
+    }
+    main .right-side .content .content__text p{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    /* Left Side */
+    main .left-side{
+        position:absolute;
+        width: 100%;
+        min-height: 20vh;
+        background-color:  rgba(0, 0, 0, 0.26);
+    }
+
+    /* Right Side */
+    main .right-side{
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .right-side .content img{
+        width: 30%;
+        border-radius: 50%;
+        border: 1.5px black solid;
+        left: 35vw;
+        top: 9vh; /* yukarı al */
+    }
+    main .right-side .content .content__text h1{
+        font-size: 2rem;
+    }
+    main .right-side .content .content__text p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    /* Left Side */
+    main .left-side{
+        position:absolute;
+        width: 100%;
+        min-height: 20vh;
+        background-color:  rgba(0, 0, 0, 0.26);
+    }
+
+    /* Right Side */
+    main .right-side{
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .right-side .content img{
+        width: 30%vw;
+        border-radius: 50%;
+        border: 1.5px black solid;
+        left: 37.5%;
+        top: 9.5vh; /* yukarı al */
+    }
+    main .right-side .content .content__text h1{
+        font-size: 2rem;
+        padding-top: 18%;
+    }
+    main .right-side .content .content__text p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 986px) {
+    /* Left Side */
+    main .left-side{
+        position:absolute;
+        width: 100%;
+        min-height: 20vh;
+        background-color:  rgba(0, 0, 0, 0.26);
+    }
+
+    /* Right Side */
+    main .right-side{
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .right-side .content img{
+        width: 30%vw;
+        border-radius: 50%;
+        border: 1.5px black solid;
+        left: 37.5%;
+        top: 5vh; /* yukarı al */
+    }
+    main .right-side .content .content__text h1{
+        font-size: 2rem;
+        padding-top: 18%;
+    }
+    main .right-side .content .content__text p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+    /* Left Side */
+    main .left-side{
+        position:absolute;
+        width: 100%;
+        min-height: 20vh;
+        background-color:  rgba(0, 0, 0, 0.26);
+    }
+
+    /* Right Side */
+    main .right-side{
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .right-side .content img{
+        width: 20%;
+        border-radius: 50%;
+        border: 1.5px black solid;
+        left: 40%;
+        top: 7%; /* yukarı al */
+    }
+    main .right-side .content .content__text h1{
+        font-size: 2rem;
+        padding-top: 18%;
+    }
+    main .right-side .content .content__text p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1573px) {
+    /* Left Side */
+    main .left-side{
+        position:absolute;
+        width: 100%;
+        min-height: 23vh;
+        background-color:  rgba(0, 0, 0, 0.26);
+    }
+
+    /* Right Side */
+    main .right-side{
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .right-side .content img{
+        width: 13%;
+        border-radius: 50%;
+        border: 1.5px black solid;
+        left: 43%;
+        top: 10%; /* yukarı al */
+    }
+    main .right-side .content .content__text h1{
+        font-size: 2rem;
+        padding-top: 18%;
+    }
+    main .right-side .content .content__text p{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
