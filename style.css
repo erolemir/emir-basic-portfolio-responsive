@@ -110,8 +110,14 @@ main .right-side .content .logos a{
         main .right-side .content .content__text p{
             font-size: 1.5rem;
         }
+        main .right-side .content .logos{
+            display: flex;    
+            padding-left: 19%;
+          }
 
 }
+
+
 
 @media screen and (min-width: 540px) {
     /* Left Side */
@@ -147,6 +153,8 @@ main .right-side .content .logos a{
     }
 
 }
+
+
 
 @media screen and (max-width: 600px) {
 
@@ -243,11 +251,17 @@ main .right-side .content .logos a{
         top: 9.5vh; /* yukarı al */
     }
     main .right-side .content .content__text h1{
-        font-size: 2rem;
+        font-size: 4rem;
         padding-top: 18%;
     }
     main .right-side .content .content__text p{
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+    main .right-side .content .logos a{
+        font-size:2rem;
+        color:rgba(46, 58, 89, 1) ;
+        margin-left: 10%;
+        margin-top: 3%;
     }
 
 }
@@ -326,8 +340,8 @@ main .right-side .content .logos a{
     /* Left Side */
     main .left-side{
         position:absolute;
-        width: 100%;
-        min-height: 23vh;
+        width: 25%;
+        height: 100%;
         background-color:  rgba(0, 0, 0, 0.26);
     }
 
@@ -340,22 +354,49 @@ main .right-side .content .logos a{
         justify-content: center;
         align-items: center;
     }
+
+    main .right-side .content{
+        display: flex;
+    }
+
     main .right-side .content img{
-        width: 13%;
+        width: 15%;
         border-radius: 50%;
         border: 1.5px black solid;
-        left: 43%;
-        top: 10%; /* yukarı al */
+        position: fixed;
+        left: 17.25vw;
+        top: 32%; /* yukarı al */
+    }
+
+    main .right-side .content .content__text{
+        margin-bottom: 10%;
+        margin-left:45%;
     }
     main .right-side .content .content__text h1{
+        margin-bottom: 3%;
+        color: rgba(46, 58, 89, 1);
+        text-align: center;
         font-size: 2rem;
-        padding-top: 18%;
+        
     }
     main .right-side .content .content__text p{
-        font-size: 1.5rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: rgba(46, 58, 89, 1);
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    main .right-side .content .logos{
+        display: flex;    
+        padding-left: 19%;
+    }
+    main .right-side .content .logos a{
+        font-size:2rem;
+        color:rgba(46, 58, 89, 1) ;
+        margin-left: 10%;
+        margin-top: 5%;
     }
 
 }
-
 
 
